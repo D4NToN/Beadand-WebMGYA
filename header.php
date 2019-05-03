@@ -1,6 +1,3 @@
-<?php
-  session_start();
-?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,10 +5,13 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Magyar Gyermekmentő Alapítvány</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <nav class="nav-header-main">
+        <a class="header-logo" href="index.php">
+          <img src="img/logo.png" alt="logo">
         </a>
         <ul>
           <li><a href="index.php">Főoldal</a></li>
@@ -28,5 +28,20 @@
                   <input type="hidden" name="sitesearch" value="mgya.org" />
             <input class="search-txt" type="text" name="q" placeholder="Keresés az oldalon">
             </form>
+        <?php
+        if (!isset($_SESSION['id'])) {
+          echo '<form action="includes/login.inc.php" method="post">
+            <input type="text" name="mailuid" placeholder="Felhasználónév/E-mail">
+            <input type="password" name="pwd" placeholder="Jelszó">
+            <button type="submit" name="login-submit">Belépés</button>
+          </form>
+          <a href="signup.php" class="header-signup">Regisztráció</a>';
+        }
+        else if (isset($_SESSION['id'])) {
+          echo '<form action="includes/logout.inc.php" method="post">
+            <button type="submit" name="login-submit">Kijelentkezés</button>
+          </form>';
+        }
+        ?>
       </div>
     </header>

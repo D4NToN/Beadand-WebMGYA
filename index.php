@@ -15,6 +15,9 @@
           A Mentőorvosi autókat a 112-es telefonszámra beérkezett hívások alapján az OMSZ irányítja.
           </h4>
           <br/><br/>
+          <iframe width="900" height="488" src="https://www.youtube-nocookie.com/embed/NdwwaUIDkjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen align="top">
+          </iframe>
           <br/>
           <a href="http://www.mgya.org/"><h4 class="index-original">Az eredeti oldal linkje</h4></a>
 

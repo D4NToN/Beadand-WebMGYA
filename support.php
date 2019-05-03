@@ -14,6 +14,10 @@
 
           <h4 class="index-text">Bankszámlánkra való befizetéssel, utalással: 12010374-00113575-00100005</h4>
           <br/>
+          <div class="wrapper">
+            <video width="900" height="600" class="Promo.vid" src="video/Promo.mp4" poster="img/videothumb.png" controls type="video/mp4"></video>
+            <article>
+          </div>
           
         </section>
       </div>

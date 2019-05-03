@@ -20,6 +20,12 @@
             <button class="contact-button" type="submit" name="send-submit">Elküldés</button>
           </form>
         <br/>
+
+        <img class="contact-pics1" src="img/Pics1.jpg" alt="Car">
+        <img class="contact-pics2" src="img/Pics2.jpg" alt="The team" align="right">
+
+        <br/>
+        <img class="contact-pics3" src="img/tamogato-bg.jpg" alt="The team" align="bottom">
           
         </section>
       </div>
