@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  require "includes/dbh.inc.php";
+?>
 <!DOCTYPE html>
 <html>
   <head>

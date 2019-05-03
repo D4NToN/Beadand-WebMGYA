@@ -1,5 +1,6 @@
 <?php
   require "header.php";
+  include 'includes/message.inc.php';
 ?>
     <main>
       <div class="wrapper-main">
